@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  header .container {
+    width: 1360px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+  }
+  header .container .head {
+    width: 100%;
+    height: 70px;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container .head .head_img {
+    width: 50px;
+    height: 50px;
+  }
+  header .container .head .head_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+  }
+  header .container .head .head_list a {
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  header .container .head .head_list .menu {
+    border-bottom: 2px solid orangered;
+  }
+  header .container .head .head_list a:hover {
+    color: orangered;
+  }
+  
+  footer .container {
+    width: 1360px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+  }
+  footer .container .footer {
+    width: 100%;
+    height: 250px;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .container .footer .foot_item {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  footer .container .footer .foot_item a {
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+    width: 95px;
+  }
+  footer .container .footer .foot_item .menu {
+    border-bottom: 2px solid orangered;
+  }
+  footer .container .footer .foot_item a:hover {
+    color: orangered;
+  }
+  footer .container .footer .foot_item .follow {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  footer .container .footer .foot_item .foot_logo {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  footer .container .footer .foot_item .copyright {
+    font-size: small;
+  }
+  footer .container .footer .foot_item .fa-telegram {
+    color: rgb(0, 183, 255);
+    font-size: 20px;
+  }
+  footer .container .footer .foot_item .fa-instagram {
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #e01826, #a5a32a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  footer .container .footer .foot_item .fa-twitter {
+    color: rgb(0, 183, 255);
+    font-size: 20px;
+  }
+  footer .container .footer .foot_item .fa-pinterest {
+    color: red;
+    font-size: 20px;
+  }/*# sourceMappingURL=main.css.map */
+
+  main .container {
+    width: 1360px;
+    margin: 0 auto;
+  }
+  main .container .main {
+    width: 100%;
+    height: 1500px;
+    padding: 0px 25px;
+    text-align: center;
+  }
+  main .container .main .menu_text {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  main .container .main .menu_subtext {
+    margin: 0 auto;
+    font-size: large;
+    margin-top: 20px;
+    width: 750px;
+    color: #150C01;
+  }
+  main .container .main .menu_list {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1160px;
+    height: 1350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main .container .main .menu_list .menu_item {
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    border-top-left-radius: 70px;
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.5);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  main .container .main .menu_list .menu_item .menu_img {
+    width: 100%;
+    height: 275px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+  main .container .main .menu_list .menu_item .item_list {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+  }
+  main .container .main .menu_list .menu_item .item_list .item_name {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .container .main .menu_list .menu_item .item_list .item_price {
+    font-size: 25px;
+  }
+  main .container .main .menu_list .menu_item .item_text {
+    font-size: 15px;
+    margin-top: 8px;
+    padding: 0px 10px;
+    text-align: justify;
+  }

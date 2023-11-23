@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ol,ul {
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    // font-family: 'Exo 2', sans-serif;    
+    // font-family: 'Ubuntu', sans-serif;
+}
+header{
+    .container{
+        width: 1360px;
+        margin: 0 auto;
+        // border: 1px solid black;
+        .head{
+            width: 100%;
+            height: 70px;
+            padding: 0px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .head_img{
+                width: 50px;
+                height: 50px;
+            }
+            .head_list{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 550px;
+                a{
+                    color: black;
+                    font-weight: 600;
+                    transition: .3s;
+                }
+                .home{
+                    border-bottom: 2px solid orangered;
+                }
+                a:hover{
+                    color: orangered;
+                }
+            }
+        }
+    }
+}
+main{
+    .container{
+        width: 1360px;
+        margin: 0 auto;
+        .main{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .main_info{
+                padding-left: 75px;
+                width: 50%;
+                .main_text{
+                    font-size: 45px;
+                    width: 550px;
+                    font-weight: 600;
+                }
+                .main_subtext{
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin-top: 10px;
+                    width: 500px;
+                }
+                .main_link{
+                    margin-top: 25px;
+                    background-color: rgba(255, 68, 0, 0);
+                    padding: 20px 40px;
+                    font-size: large;
+                    font-weight: 600;
+                    color: black;
+                    border-radius: 5px;
+                    border: 1px solid orangered;
+                    transition: .3s;
+                }
+                .main_link:hover{
+                    background-color: orangered;
+                    color: white;
+                    
+                }
+            }
+            .main_image{
+                width: 50%;
+                .main_img{
+                    width: 700px;
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+section{
+    .container{
+        width: 1360px;
+        margin: 0 auto;
+        .section{
+            width: 100%;
+            height: 800px;
+            .galery{
+                margin: 0 auto;
+                width: 1200px;
+                height: 900px;
+                .top{
+                    margin-top: 20px;
+                    width: 100%;
+                    height: 450px;
+                    display: flex;
+                    justify-content: space-between;
+                    .left{
+                        height: 450px;
+                        width: 650px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .galery_img{
+                            width: 600px;
+                            height: 215px;
+                        }
+                    }
+                    .galery_img{
+                        width: 600px;
+                        height: 450px;
+                    }
+                }
+                .bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 270px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .image{
+                        width: 270px;
+                        height: 270px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    .container{
+        width: 1360px;
+        margin: 0 auto;
+        // border: 1px solid black;
+        .footer{
+            width: 100%;
+            height: 250px;
+            padding: 0px 25px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .foot_item{
+                width: 200px;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                a{
+                    color: black;
+                    font-weight: 600;
+                    transition: .3s;
+                    width: 95px;
+                }
+                .home{
+                    border-bottom: 2px solid orangered;
+                }
+                a:hover{
+                    color: orangered;
+
+                }
+                .follow{
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                .foot_logo{
+                    font-size: larger;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                }
+                .copyright{
+                    font-size: small;
+                }
+                .fa-telegram{
+                    color: rgb(0, 183, 255);
+                    font-size: 20px;
+                }
+                .fa-instagram{
+                    font-size: 20px;
+                    background-image: linear-gradient(90deg, #e01826, #a5a32a);
+                    background-clip: border-box;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                .fa-twitter{
+                    color: rgb(0, 183, 255);
+                    font-size: 20px;
+                }
+                .fa-pinterest{
+                    color: red;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

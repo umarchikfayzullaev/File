@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+header .container .head {
+  width: 100%;
+  height: 70px;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .head .head_img {
+  width: 50px;
+  height: 50px;
+}
+header .container .head .head_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+header .container .head .head_list a {
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+header .container .head .head_list .home {
+  border-bottom: 2px solid orangered;
+}
+header .container .head .head_list a:hover {
+  color: orangered;
+}
+
+main .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+main .container .main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .main .main_info {
+  padding-left: 75px;
+  width: 50%;
+}
+main .container .main .main_info .main_text {
+  font-size: 45px;
+  width: 550px;
+  font-weight: 600;
+}
+main .container .main .main_info .main_subtext {
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 10px;
+  width: 500px;
+}
+main .container .main .main_info .main_link {
+  margin-top: 25px;
+  background-color: rgba(255, 68, 0, 0);
+  padding: 20px 40px;
+  font-size: large;
+  font-weight: 600;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid orangered;
+  transition: 0.3s;
+}
+main .container .main .main_info .main_link:hover {
+  background-color: orangered;
+  color: white;
+}
+main .container .main .main_image {
+  width: 50%;
+}
+main .container .main .main_image .main_img {
+  width: 700px;
+  height: 500px;
+}
+
+section .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+section .container .section {
+  width: 100%;
+  height: 800px;
+}
+section .container .section .galery {
+  margin: 0 auto;
+  width: 1200px;
+  height: 900px;
+}
+section .container .section .galery .top {
+  margin-top: 20px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+section .container .section .galery .top .left {
+  height: 450px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section .container .section .galery .top .left .galery_img {
+  width: 600px;
+  height: 215px;
+}
+section .container .section .galery .top .galery_img {
+  width: 600px;
+  height: 450px;
+}
+section .container .section .galery .bottom {
+  margin-top: 50px;
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container .section .galery .bottom .image {
+  width: 270px;
+  height: 270px;
+}
+
+footer .container {
+  width: 1360px;
+  margin: 0 auto;
+}
+footer .container .footer {
+  width: 100%;
+  height: 250px;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container .footer .foot_item {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+footer .container .footer .foot_item a {
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+  width: 95px;
+}
+footer .container .footer .foot_item .home {
+  border-bottom: 2px solid orangered;
+}
+footer .container .footer .foot_item a:hover {
+  color: orangered;
+}
+footer .container .footer .foot_item .follow {
+  font-size: 25px;
+  font-weight: 600;
+}
+footer .container .footer .foot_item .foot_logo {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .container .footer .foot_item .copyright {
+  font-size: small;
+}
+footer .container .footer .foot_item .fa-telegram {
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+footer .container .footer .foot_item .fa-instagram {
+  font-size: 20px;
+  background-image: linear-gradient(90deg, #e01826, #a5a32a);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .container .footer .foot_item .fa-twitter {
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+footer .container .footer .foot_item .fa-pinterest {
+  color: red;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

@@ -81,14 +81,14 @@
     font-size: large;
     color: gainsboro;
   }
-  section .container .section form {
+  section .container .section .form {
     width: 750px;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
   }
-  section .container .section form .input {
+  section .container .section .form .input {
     width: 550px;
     height: 50px;
     font-size: large;
@@ -97,7 +97,7 @@
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
   }
-  section .container .section form .submit {
+  section .container .section .form .submit {
     width: 200px;
     height: 50px;
     border: none;
@@ -107,7 +107,7 @@
     border-bottom-right-radius: 10px;
     transition: 0.2s;
   }
-  section .container .section form .submit:hover {
+  section .container .section .form .submit:hover {
     background-color: green;
     color: white;
   }
